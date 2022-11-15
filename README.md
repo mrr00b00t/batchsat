@@ -27,6 +27,12 @@ you will see that a `products-polygons.csv` was created.
 
 use it as input to the next script, running: `python rasters.py --csv-path <path_to_output_of_products.py>`. if everything goes ok, it will be created a folder named `rasters` and subfolders named with the poygons unique id. inside these subfolders you will see the downloaded raster files ready to be used.
 
+# example
+
+Example of a True Color Image 10m resolution time series from a random crop near Brasília, from 2022-06-03 to 2022-10-26.
+
+![Alt text](./near-brasilia.gif)
+
 # project goals
 
 - build a knowledge on how to collect, prepare, process and work with raster files and raster files time series
